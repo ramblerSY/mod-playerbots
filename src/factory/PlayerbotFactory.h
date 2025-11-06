@@ -120,6 +120,8 @@ private:
     Item* StoreItem(uint32 itemId, uint32 count);
     void InitGuild();
     void InitArenaTeam();
+    uint32 GetOnlineBotCount();
+    void FillArenaTeams();
     void InitImmersive();
     static void AddPrevQuests(uint32 questId, std::list<uint32>& questIds);
     void LoadEnchantContainer();
